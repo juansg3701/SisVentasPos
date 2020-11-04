@@ -1,0 +1,8 @@
+POS:
+Nombre: sFcmhNSIpt
+contraseña: 0xN3cyghT1
+
+usuario: juangomez3701@gmail.com
+contraseña: juliana
+
+https://remotemysql.com/login.php
