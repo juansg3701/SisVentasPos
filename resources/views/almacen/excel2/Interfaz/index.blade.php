@@ -21,12 +21,12 @@
 	</div>
 
 	<div id="formulario">
-		<form method="post" id="addproduct" action="/import.php" enctype="multipart/form-data" role="form">
+		<form method="post" id="addproduct" action="/importCliente.php" enctype="multipart/form-data" role="form">
   			<div align="center">
     			<label class="control-label">Seleccione un archivo (.xlsx)*</label><br>
-     			<input type="file" name="name"  id="name" placeholder="Archivo (.xlsx)">
+     			<input type="file" name="name"  id="inpCargar" placeholder="Archivo (.xlsx)">
 				<br><br>
-     			<a><button type="submit" class="btn btn-success" onClick="location.reload();">Cargar xls</button></a>
+     			<a><button type="submit" id="btnCargar" class="btn btn-success" onClick="location.reload();">Cargar xls</button></a>
   			</div>
 		</form>
 	</div>

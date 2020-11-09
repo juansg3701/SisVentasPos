@@ -19,7 +19,6 @@ class AcercaDeController extends Controller
 	 		return view('almacen.excel2.index');
 	 	}
 
-
 	 	public function create(Request $request){
 	 		//Proveedor
 	 		return view('almacen.excel.pdf');

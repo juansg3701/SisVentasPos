@@ -32,8 +32,6 @@ if(isset($_FILES["name"])){
                     $x_correo!='' &&
                     $x_documento!='' ) {
                     # code...
-                
-                
                 $sql = "insert into proveedor (nombre_empresa, nombre_proveedor, direccion,  telefono, correo, documento, verificacion_nit) value ";
                 $sql .= " (\"$x_nombre_empresa\",\"$x_nombre_proveedor\",\"$x_direccion\",\"$x_telefono\",\"$x_correo\",\"$x_documento\",\"$x_verificacion_nit\")";
                $con->query($sql);
