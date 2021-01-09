@@ -66,7 +66,7 @@ while($row = $qrAgregados->fetch_assoc()){
 
 
 
-$pdf->Image('http://chart.googleapis.com/chart?chs=100x100&cht=qr&chl='.$charfec.$fec.'/'.$chardoc.$docCli1.'-'.$docCli2.'/'.$charno.$noPro.'/'.$charimp.$pagImp.'/'.$chardes.$pagDes.'/'.$charpag.$pagTot.'\n'.'&.png',150,10,50,50);
+//$pdf->Image('http://chart.googleapis.com/chart?chs=100x100&cht=qr&chl='.$charfec.$fec.'/'.$chardoc.$docCli1.'-'.$docCli2.'/'.$charno.$noPro.'/'.$charimp.$pagImp.'/'.$chardes.$pagDes.'/'.$charpag.$pagTot.'\n'.'&.png',150,10,50,50);
 $pdf->Cell(40,10,'FACTURA DE VENTA',0,1);
 $pdf->Cell(25,5,'Fecha de emision: ',0,0);
 while($row = $fechaActual->fetch_assoc()){    

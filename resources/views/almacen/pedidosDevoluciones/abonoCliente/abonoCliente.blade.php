@@ -34,7 +34,7 @@
 		@foreach($totales as $EAN)
 		<input type="hidden" class="form-control" name="total" placeholder="Ingrese cantidad..." value="{{$EAN->pago_total}}">
 		@endforeach
-		Fecha:<input type="datetime-local" class="form-control" name="fecha"  value="<?php echo date("Y/m/d H:i"); ?>"readonly>
+		Fecha:<input type="datetime" class="form-control" name="fecha"  value="<?php echo date("Y/m/d H:i"); ?>"readonly>
 
 		Empleado:
 		<select name="empleado_id_empleado" class="form-control">

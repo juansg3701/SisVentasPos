@@ -138,7 +138,6 @@ class facturacionListaVentas extends Controller
 	 			->orderBy('id_cargo', 'desc')->get();
 	 			
 	 			return view("almacen.facturacion.listaVentas.registrar",["modulos"=>$modulos]);
-	
 
 	 	}
 
