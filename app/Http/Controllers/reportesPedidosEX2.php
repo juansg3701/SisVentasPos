@@ -56,8 +56,7 @@ class reportesPedidosEX2 extends Controller
 	 		->orderBy('tc.id_rproveedor', 'desc')
 	 		->paginate(10);
 	 		}
-	 		
-	
+			
 	 			 			
 	 		return view("almacen.reportes.pedidos2.grafica",["modulos"=>$modulos, "pedidosProveedor"=>$pedidosProveedor]);
 	 	}

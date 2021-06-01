@@ -39,7 +39,6 @@ class reportesInventario2 extends Controller
 	 		$fechaFinalR=$request->get('fechaFinal');
 
 	 		if($fechaInicialR<=$fechaFinalR){
-
 	 		$reporte = new RInventarios2;
 	 		$reporte->fechaInicial=$fechaInicialR;
 	 		$reporte->fechaFinal=$fechaFinalR;
