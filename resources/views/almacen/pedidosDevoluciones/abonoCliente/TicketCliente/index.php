@@ -97,5 +97,6 @@ while($row = $resDes->fetch_assoc()){
 }
 
 
-$pdf->Output();
+//$pdf->Output();
+$pdf->Output('D','Ticket.pdf','UTF-8');
 ?>
